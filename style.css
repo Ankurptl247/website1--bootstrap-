@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+
+.img1{
+    background-image: url(img/hero-01.png);
+    background-position: center;
+    background-size: cover;
+    
+    background-color:#ecd8d8; 
+}
+.chashma{
+    background-image: url(img/hero-02.png);
+    background-size: 45vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.my-nav{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.small-title{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+}
+.header{
+    font-size: 5.5vw;
+    font-family: 'Yeseva One', serif;
+    color: black;
+    font-weight: 400;
+    line-height: 1.0em;
+}
+.title{
+    font-size: 65px;
+    font-family: 'Yeseva One', serif;
+    color: black;
+    font-weight: 400;
+    line-height: 1.0em;
+}
+.paragraph{
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#3c4a52;  
+}
+.shop{
+    height:46px ;
+    width: 145px;
+    font-size: 14px;
+    font-weight: 600; 
+    font-family:'Montserrat', sans-serif;
+    background-color: transparent;
+    border:1px solid black;
+    transition: 0.5s;
+}
+.shop:hover{
+    background-color:black;
+    color: white;
+    transition: 0.5s;
+}
+.girl-bg{
+    background-image: url(img/about-02.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+}
+.chsma-bg{
+    background-image: url(img/about-01.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+}
+/* third page */
+.img2{
+    background-image: url(img/bg-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* fourth page */
+.img3{
+    background-image: url(img/bg-02.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 810px;
+}
+/* fifth */
+.info-title{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+.Testimonials{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-style: italic;
+    line-height:2;
+}
+.rating{
+    list-style: none;
+}
+.product-title{
+    font-size: 25px;
+    font-family: 'Yeseva One', serif;
+    color: black;
+    font-weight: 600;
+    line-height: 1.0em;
+}
+.price{
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color:#5d5964;
+}
+/* footer page */
+.about-us{
+    list-style-type: none;
+    
+}
+.about-us li a{
+    text-decoration: none;
+    font-weight:500;
+    color:black;
+    line-height:2;
+}
+/* men page */
+
+.small-lable{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(107, 105, 105);
+}
+.social{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border: none;
+}
+/* about page */
+.about-bg{
+    background-image: url(img/bg-06.jpg);
+    background-position: center;
+    background-size:cover;
+}
+.pink-bg{
+    background-image: url(img/bg-07.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+}
+.vision-bg{
+    background-image: url(img/about-03.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 560px;
+}
+.contact-bg{
+    background-image: url(img/bg-05.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    box-shadow: 0 40px 60px 0 rgba(0,0,0,.15);
+    height: 500px;
+}
+.input{
+    border:1px solid #d8cece;
+    height: 45px;
+    width: 280px;
+}
+
+.send {
+    height: 45px;
+    width: 70px;
+    border: 1px solid black;
+    font-weight: 700;
+    background-color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.send:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+.fs34{
+    font-size: 34px;
+}
+.fs35{
+    font-size: 35px;
+}
+
+.h70{
+    height: 70px;
+}
+.h100{
+    height: 100px;
+}
+.h120{
+    height: 120px;
+}
+.h200{
+    height: 200px;
+}
+.h500{
+    height: 500px;
+}
+.h150{
+    height: 150px;
+}
+.h380{
+    height: 380px;
+}
+
+.ml70{margin-left: 650px;
+    margin-top: -70px;
+    line-height: 2;
+}
+.m40{margin-top: -50px;}
+
+
+
+
+@media (max-width:500px) {
+    .ml70{margin-left: 100px;
+    margin-top: 0px;
+    line-height: 1.7;}
+    .header{
+        font-size: 7.5vw;
+    }
+    .paragraph{
+        font-size: 2.6vw;
+    }
+    .fs35{
+        font-size: 20px;
+    }
+    .img3{
+        height: 300px;
+    }
+    .girl-bg{
+        height: 300px;
+    }
+    .chsma-bg{
+        height: 300px;
+    }
+    .info-title{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .h70{
+        height: 40px;
+    }
+    .h100{
+        height: 50px;
+    }
+    .h120{
+        height: 50px;
+    }
+    .h200{
+        height: 50px;
+    }
+    .h150{
+        height: 50px;
+    }
+    .pink-bg{
+        background-image: url(img/bg-07.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+    }
+    .fs34{
+        font-size: 20px;
+    }
+    .product-title{
+        font-size: 20px;
+    }
+    
+}
